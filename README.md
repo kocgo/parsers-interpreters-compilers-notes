@@ -9,8 +9,26 @@ Individual unit
 # Compiler
 A compiler is a program that translates code written in one programming language into another language.
 
+# Interpreted Languages
+Implements semantics themselves. For example interpreter answers the questions:
+
+- How a function is called?
+- What does it mean to create a variable?
+
+# Compile Time (Static Time)
+The phase program have not been executed.
+
+Example of a static time operations:
+```
+Tokenizer -> Tokens -> Parser -> AST
+```
+
+# Compiled Languages
+Delegate semantics to a target language
+
 # Parser Combinators
 Small parsers that combine to make more complex parsers
+
 
 # Tokenizer (Lexical Analysis)
 Tokens are pieces of strings which has identified meaning in a language.
